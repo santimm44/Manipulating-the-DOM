@@ -5,20 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Manipulating the DOM</title>
     <link rel="stylesheet" href="./Style/style.css">
+    <link rel="stylesheet" href="./Style/wickedcss.min.css">
 </head>
 
 
-<body>
-    <header>
-        
+<body id="body__color">
+    <header id="header__color">
+        <h1>Header Content</h1>
+        <div>
+            <ul>
+                <div class="div__space-between">
+                    <li type="button" id="btn-header__color">Change header color</li>
+                    <li type="button" id="btn-section__color">Change section color</li>
+                    <li type="button" id="btn-footer__color">Change footer color</li>
+                </div>
+                <div class="div__space-between">
+                    <li type="button" id="btn-image__src">Change image to section</li>
+                    <li type="button" id="btn-section__text">Change text in section</li>
+                    <li type="button" id="btn-body__color" >Change body color</li>
+                </div>
+                <div class="div__space-between">
+                    <li id="btn-footer--image__spinner" type="button">spin footer image</li>
+                    <li type="button">Something</li>
+                    <li type="button">Something</li>
+                </div>
+                <div class="div__space-between">
+                    <li id="btn-body__shake" type="button">shake</li>
+                </div>
+            </ul>
+        </div>
     </header>
 
-    <section>
-
+    <section id="section__color">
+        <h1>Section Content</h1>
+        
+        <div>
+            <p id="section--paragraph__text">Hey, you can change this text with a button over in the header.</p>
+        </div>
+        <div>
+            <img id="image__src" src="./assets/kirby-30th-kirbys-2560x1440-1.webp" alt="Image of multiple Kirbies">
+        </div>
     </section>
 
-    <footer>
-
+    <footer id="footer__color">
+        <h1>Footer Content</h1>
+        <div>
+            <img id="footer--image__spinner" src="./assets/crowd-789652.jpg" alt="crowd of people">
+        </div>
     </footer>
 </body>
 
