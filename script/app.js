@@ -5,7 +5,9 @@ let changeImageSrc = document.getElementById("btn-image__src");
 let changeSectionText = document.getElementById("btn-section__text");
 let changeBodyColor = document.getElementById("btn-body__color");
 let animationFooterImage = document.getElementById("btn-footer--image__spinner")
-
+let changeBodyTextWhite = document.getElementById("btn-body--text__white")
+let spinningBtn = document.getElementById("btn-spin");
+let shakeBtn = document.getElementById("btn-shake")
 
 let headerColor = document.getElementById("header__color");
 let sectionColor = document.getElementById("section__color");
@@ -15,6 +17,17 @@ let sectionText = document.getElementById("section--paragraph__text")
 let bodyColor = document.getElementById("body__color");
 let footerImage = document.getElementById("footer--image__spinner");
 
+shakeBtn.addEventListener("click", function(){
+    shakeBtn.className = "shake"
+})
+
+spinningBtn.addEventListener("click", function(){
+    spinningBtn.className = "spinner"
+})
+
+changeBodyTextWhite.addEventListener("click", function(){
+    bodyColor.className = "white-text";
+})
 
 animationFooterImage.addEventListener("click", function(event){
     footerImage.className= "spinner";

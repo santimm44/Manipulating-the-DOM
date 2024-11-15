@@ -5,6 +5,9 @@ body{
     flex-direction: column;
     align-items: center;
 }
+.white-text{
+    color: skyblue;
+}
 
 ul{
     height: 10rem;
